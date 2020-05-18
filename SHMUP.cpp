@@ -460,7 +460,7 @@ public:
 		for (auto &e : bossList)
 		{
 			DrawString(16, 460, "HEDMAN:");
-			FillRect(76, 460 - ScreenHeight(), e.def.health * 19, 8, olc::DARK_RED);
+			FillRect(76, 460, e.def.health * 19, 8, olc::DARK_RED);
 		}
 
 		if (spawnList.empty() && bossList.empty())
